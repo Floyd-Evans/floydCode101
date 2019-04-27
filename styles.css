@@ -1,3 +1,46 @@
 body {
   background-color: #5F9EA0;
+  margin:0;
+}
+
+header {
+  background-color: white;
+}
+h1 {
+  color: darkblue;
+  margin: 0;
+  padding: 0.5em;
+  font-size: 3em;
+  /* Fonts taken from fonts.google.com */
+  font-family: Lobster Two, Prompt;
+  text-align: center;
+}
+
+nav {
+  background-color: #6666ff;
+
+}
+
+ul {
+  margin: 0;
+  text-align: center;
+}
+
+li {
+  background-color: #ff9933;
+  /* color: white; */
+  display: inline-flex;
+  padding: 0.5em 2em;
+  font-size: 1em;
+}
+
+a {
+  color: white;
+  display: inline-block;
+  /* text-decoration: none; */
+}
+
+a:hover {
+  color: rgb(204, 0, 0);
+  /* font-weight: bold; */
 }
