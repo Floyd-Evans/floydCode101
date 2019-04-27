@@ -1,3 +1,17 @@
+#container {
+  animation: responsive 15s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes responsive {
+  0%, 100% {
+    width: 100%;
+  }
+  50% {
+    width: 110px;
+  }
+}
+
 body {
   background-color: #5F9EA0;
   margin:0;
@@ -81,6 +95,21 @@ nav a:hover {
 }
 
 #events ul {
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+#reserved {
+  width: auto;
+  /* text-align: center; */
+  color: #000;
+}
+
+#reserved strong {
+  color: rgb(255, 190, 255, 190);
+}
+
+#reserved ul {
   list-style: none;
   padding-left: 0.5em;
 }
