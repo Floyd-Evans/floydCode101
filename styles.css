@@ -6,27 +6,34 @@ body {
 header {
   background-color: white;
 }
+
+header h3 {
+  margin: 0;
+}
 h1 {
   color: darkblue;
   margin: 0;
-  padding: 0.5em;
+  padding: 0.05em 0.01em 0.001em 0.001em;
   font-size: 3em;
   /* Fonts taken from fonts.google.com */
   font-family: Lobster Two, Prompt;
   text-align: center;
 }
 
-nav {
-  background-color: #6666ff;
-
+h2 {
+  margin: 0;
 }
 
-ul {
+nav {
+  background-color: #6666ff;
+}
+
+nav ul {
   margin: 0;
   text-align: center;
 }
 
-li {
+nav li {
   background-color: #ff9933;
   /* color: white; */
   display: inline-flex;
@@ -34,13 +41,78 @@ li {
   font-size: 1em;
 }
 
-a {
+nav a {
   color: white;
   display: inline-block;
   /* text-decoration: none; */
 }
 
-a:hover {
+nav a:hover {
   color: rgb(204, 0, 0);
   /* font-weight: bold; */
+}
+
+#calendar {
+  /* display: inline-block; */
+  width: 250px;
+  /* background-color: #ff99ff; */
+  float:left;
+  color: white;
+  margin-left: 30px;
+}
+
+#calendar strong {
+  color: rgb(255, 190, 255, 190);
+}
+
+#calendar ul {
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+#events {
+  width: auto;
+  /* text-align: center; */
+  color: #000;
+}
+
+#events strong {
+  color: rgb(255, 190, 255, 190);
+}
+
+#events ul {
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+section {
+  /* display: inline-block; */
+  background-color: white;
+  margin-left: 255px;
+  padding: 0.5em;
+  overflow: auto;
+}
+
+section p {
+  margin-top: 0;
+}
+
+/* section ::after {
+  content: "";
+  display:block;
+  clear:both;
+} */
+
+main {
+  font-family: Play;
+}
+
+span h3 {
+  width: 50%;
+  margin:auto;;
+}
+
+.left {
+  float:left;
+  margin-right: 0.5em;
 }
